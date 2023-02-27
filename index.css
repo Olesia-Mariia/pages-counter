@@ -1,0 +1,50 @@
+body {
+    background-image: url("book.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    background: rgba(201, 203, 163, 0.4);
+    max-width: 300px;
+    height: 350px;
+    padding: 3px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+#increment-btn {
+    background: #ffcb69;
+    box-shadow: 0 0 5px 0 #777;
+}
+
+#save-btn {
+    background: #10451d;
+    color: white;
+    box-shadow: 0 0 5px 0 #777;
+}
+
